@@ -1,0 +1,122 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners.",
+    "image": "https://i.ibb.co.com/ZRJbjvQ7/Why-Beginner-Guitar-Lessons.jpg",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions for non-native speakers.",
+    "image": "https://i.ibb.co.com/DgkBxj4g/gametiles-com-app-appoaholic-speakenglish.jpg",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Frontend Web Development Basics",
+    "providerName": "Rafiul Karim",
+    "providerEmail": "rafi@skillswap.com",
+    "price": 30,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Learn HTML, CSS, and basic JavaScript from scratch.",
+    "image": "https://i.ibb.co.com/cSKy7T2g/Kala-Blog-3-dc1f173214.png",
+    "category": "Technology"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Digital Illustration Workshop",
+    "providerName": "Maya Rahman",
+    "providerEmail": "maya@skillswap.com",
+    "price": 25,
+    "rating": 4.7,
+    "slotsAvailable": 2,
+    "description": "Hands-on training in Procreate and Adobe Illustrator.",
+    "image": "https://i.ibb.co.com/rKK2Z9Jn/images-q-tbn-ANd9-Gc-STSh-X4-HIl3-XSWdwlht2r-RCHwh-LXk-Hh-Qyilj-Q-s.jpg",
+    "category": "Art & Design"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Photography Composition Tips",
+    "providerName": "Noah Evans",
+    "providerEmail": "noah@skillswap.com",
+    "price": 15,
+    "rating": 4.5,
+    "slotsAvailable": 6,
+    "description": "Master lighting, framing, and storytelling through photos.",
+    "image": "https://i.ibb.co.com/9HG5qbwb/news-fb-image-3418.png",
+    "category": "Photography"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Yoga for Beginners",
+    "providerName": "Ayesha Khan",
+    "providerEmail": "ayesha@skillswap.com",
+    "price": 12,
+    "rating": 4.6,
+    "slotsAvailable": 8,
+    "description": "Gentle yoga sessions focusing on balance and flexibility.",
+    "image": "https://i.ibb.co.com/WNFNJR7z/Yoga-for-Beginners-Step-by-Step-Guide-to-Getting-Started.webp",
+    "category": "Health & Fitness"
+  },
+  {
+    "skillId": 7,
+    "skillName": "Cooking Fundamentals: Quick Meals",
+    "providerName": "Liam Chowdhury",
+    "providerEmail": "liam@skillswap.com",
+    "price": 18,
+    "rating": 4.9,
+    "slotsAvailable": 5,
+    "description": "Learn to make easy and delicious meals in under 30 minutes.",
+    "image": "https://i.ibb.co.com/sJ54Ym2P/Getty-Images-1500855175-banner.webp",
+    "category": "Cooking"
+  },
+  {
+    "skillId": 8,
+    "skillName": "Personal Branding on LinkedIn",
+    "providerName": "Nadia Rahim",
+    "providerEmail": "nadia@skillswap.com",
+    "price": 22,
+    "rating": 4.7,
+    "slotsAvailable": 4,
+    "description": "Build a strong personal brand and attract career opportunities.",
+    "image": "https://i.ibb.co.com/Pvk2kB6z/1697474061971-e-2147483647-v-beta-t-5zsg-KM-Mo4-TZovo-Zuyku5p-U-e-CPGm-Wo78vy9-G2nza-Dk.png",
+    "category": "Career Development"
+  },
+  {
+    "skillId": 9,
+    "skillName": "Creative Writing Bootcamp",
+    "providerName": "Ethan Blake",
+    "providerEmail": "ethan@skillswap.com",
+    "price": 16,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Unlock your storytelling potential with guided writing sessions.",
+    "image": "https://i.ibb.co.com/xtzxfgv8/images-q-tbn-ANd9-Gc-Sk-Xa3-Zs-Sa-CUo-UCn-Wz-C4-Vt6ih-N4s-CF-JFRh-Hg-s.jpg",
+    "category": "Writing"
+  },
+  {
+    "skillId": 10,
+    "skillName": "Public Speaking Confidence",
+    "providerName": "Farzana Alam",
+    "providerEmail": "farzana@skillswap.com",
+    "price": 28,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Overcome stage fear and deliver powerful speeches.",
+    "image": "https://i.ibb.co.com/mrtZt1sZ/images-q-tbn-ANd9-Gc-T9-VU4-Hrc-JEBly4z-Jze9sf-MBENo51-Fkdne-Sbw-s.jpg",
+    "category": "Personal Development"
+  }
+]
