@@ -11,7 +11,7 @@ const TopProviders = () => {
   const topProvider = data.sort((a, b) => b.rating - a.rating).slice(0, 5);
   return (
     <section className="my-12 px-5 md:px-10 bg-base-300 py-9 w-11/12 mx-auto">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center animate__animated animate__fadeInDown">
+      <h2 className="text-3xl font-bold text-[#f76305]  mb-8 text-center animate__animated animate__fadeInDown">
         Top Rated Providers
       </h2>
 

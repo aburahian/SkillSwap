@@ -7,7 +7,7 @@ const DataProvider = ({ children }) => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("/skill.json")
+    fetch("http://localhost:3000/latest-skills")
       .then((res) => res.json())
       .then((data) => {
         setData(data);

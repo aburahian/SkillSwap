@@ -14,6 +14,8 @@ import BookSession from "../pages/BookSession";
 import ServiceLayout from "../pages/ServiceLayout";
 import Services from "../pages/Services";
 import UpdateProfile from "../pages/UpdateProfile";
+import About from "../pages/About";
+import Contact from "../pages/Contect";
 
 export const Router = createBrowserRouter([
   {
@@ -25,6 +27,7 @@ export const Router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
+      
     ],
   },
   {
@@ -59,14 +62,12 @@ export const Router = createBrowserRouter([
         path: "/service",
         element: <Services></Services>,
       },
+
       {
         path: "/service/skill/:id",
-        element: (
-          <PrivateRoute>
-            <SkillDetails></SkillDetails>
-          </PrivateRoute>
-        ),
+        element: <SkillDetails></SkillDetails>,
       },
+      
       {
         path: "/service/book-session",
         element: (
@@ -96,4 +97,12 @@ export const Router = createBrowserRouter([
       },
     ],
   },
+  {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+      {
+        path: "/aboutUs",
+        element: <About></About>,
+      },
 ]);

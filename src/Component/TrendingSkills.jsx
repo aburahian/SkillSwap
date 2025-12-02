@@ -5,7 +5,7 @@ const TrendingSkills = () => {
   return (
     <section className="py-16 bg-white w-11/12 mx-auto">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-extrabold mb-6  animate__animated animate__bounce animate__infinite">
+        <h2 className="text-4xl font-extrabold mb-6 text-[#f76305]  animate__animated animate__bounce animate__infinite">
           Trending Skills
         </h2>
 

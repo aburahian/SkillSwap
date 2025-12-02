@@ -9,13 +9,13 @@ const ErrorPage = () => {
         <h1
           className="animate__animated animate__bounce animate__infinite text-7xl font-bold text-error"
           style={{
-            animationDuration: "1.5s", // optional: adjust bounce speed
+            animationDuration: "1.5s", 
             animationIterationCount: "infinite",
           }}
         >
           404
         </h1>
-        <h2 className="text-2xl md:text-3xl font-semibold mt-4 text-base-content animate__animated animate__fadeInUp animate__delay-1s">
+        <h2 className="text-2xl md:text-3xl font-semibold mt-4 text-[#f76305] animate__animated animate__fadeInUp animate__delay-1s">
           Oops! Page Not Found 😢
         </h2>
         <p className="text-gray-500 mt-3 mb-8 max-w-md mx-auto animate__animated animate__fadeInUp animate__delay-2s">

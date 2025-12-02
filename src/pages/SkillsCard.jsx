@@ -2,10 +2,13 @@ import React from "react";
 import { useNavigate } from "react-router";
 
 const SkillsCard = ({ skill }) => {
-  const { image, skillName, rating, price, skillId } = skill;
+
+  const { image, skillName, rating, price, _id } = skill;
+
+  
   const navigate = useNavigate();
   return (
-    <div className="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition duration-300 ">
+    <div className="bg-white max-h-96 shadow-md flex flex-col justify-between rounded-xl overflow-hidden hover:shadow-lg transition duration-300 ">
       <img src={image} alt={skillName} className="w-full h-48 object-cover" />
       <div className="p-4">
         <h2 className="text-lg font-semibold text-gray-800 mb-2">
@@ -16,8 +19,8 @@ const SkillsCard = ({ skill }) => {
           <span className="text-indigo-600 font-semibold">${price}</span>
         </div>
         <button
-          onClick={() => navigate(`/service/skill/${skillId}`)}
-          className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition"
+          onClick={() => navigate(`/service/skill/${_id}`)}
+          className="w-full bg-[#f76305] text-white py-2 rounded-lg hover:bg-indigo-700 transition"
         >
           View Details
         </button>

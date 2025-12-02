@@ -35,8 +35,8 @@ const HeroSlider = () => {
     },
   ];
   return (
-    <div className="mt-24">
-      <section className="relative w-11/12 mx-auto ">
+    <div className="mt-6">
+      <section className="relative w-11/12 mx-auto h-[400px] md:h-[430px] overflow-hidden rounded-lg ">
         <Swiper
           modules={[Pagination, Autoplay]}
           pagination={{ clickable: true }}
@@ -60,7 +60,7 @@ const HeroSlider = () => {
                   </p>
                   <a
                     href={slide.btnLink}
-                    className="inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-full text-white font-semibold transition"
+                    className="inline-block px-6 py-3 bg-[#f76305] hover:bg-[#f76305] rounded-full text-white font-semibold transition"
                   >
                     {slide.btnText}
                   </a>

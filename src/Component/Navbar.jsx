@@ -1,7 +1,7 @@
 import React, { use } from "react";
 import { Link, Links, NavLink } from "react-router";
 import { AuthContext } from "../Context/Auth/AuthContext";
-import userPng from "../assets/user.png";
+
 import logoPng from "../assets/download.png";
 
 const Navbar = () => {
@@ -18,7 +18,9 @@ const Navbar = () => {
     <>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "border-b-2 font-bold" : "")}
+          className={({ isActive }) =>
+            isActive ? "border-b-2 text-[#f76305] font-bold" : ""
+          }
           to={"/"}
         >
           Home
@@ -26,7 +28,9 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "border-b-2 font-bold" : "")}
+          className={({ isActive }) =>
+            isActive ? "border-b-2 text-[#f76305] font-bold" : ""
+          }
           to={"/service"}
         >
           Service
@@ -34,16 +38,42 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "border-b-2 font-bold" : "")}
-          to={"/user"}
+          className={({ isActive }) =>
+            isActive ? "border-b-2 text-[#f76305] font-bold" : ""
+          }
+          to={"/aboutUs"}
         >
-          My Profile
+          About Us
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "border-b-2 text-[#f76305] font-bold" : ""
+          }
+          to={"/contact"}
+        >
+          Contact
+        </NavLink>
+      </li>
+      {user ? (
+        <li>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "border-b-2 text-[#f76305] font-bold" : ""
+            }
+            to={"/user"}
+          >
+            My Profile
+          </NavLink>
+        </li>
+      ) : (
+        ""
+      )}
     </>
   );
   return (
-    <div className=" bg-base-100 shadow-sm">
+    <div className=" bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="navbar w-11/12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -72,11 +102,9 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to={"/"}>
-            <button className="btn btn-ghost text-xl font-bold flex justify-center items-center">
-              <span className="-mr-1">
-                <img className="w-5 h-6 " src={logoPng} alt="" />
-              </span>
-              killSwap
+            <button className="flex items-center gap-2 text-xl font-bold bg-transparent p-0 hover:bg-transparent">
+              <img className="w-6 h-7 md:w-7 md:h-8" src={logoPng} alt="Logo" />
+              <span className="text-[#f76305]">killSwap</span>
             </button>
           </Link>
         </div>
@@ -94,25 +122,25 @@ const Navbar = () => {
                   title={user?.displayName}
                 />
               ) : (
-                <img src={userPng} alt="" />
+                ""
               )}
             </Link>
             {user ? (
               <Link
                 to={"/auth"}
                 onClick={handleLogOut}
-                className="btn bg-[#4F46E5] text-white"
+                className="btn bg-[#f76305] text-white"
               >
                 Log Out
               </Link>
             ) : (
               <div>
-                <Link to={"/auth"} className="btn mr-4 bg-[#4F46E5] text-white">
+                <Link to={"/auth"} className="btn mr-4 bg-[#f76305] text-white">
                   Log In
                 </Link>
                 <Link
                   to={"/auth/register"}
-                  className="btn bg-[#4F46E5] text-white"
+                  className="btn bg-[#f76305] text-white"
                 >
                   Sign up
                 </Link>

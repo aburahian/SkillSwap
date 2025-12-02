@@ -4,7 +4,7 @@ const HowItWorks = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-6">How It Works</h2>
+        <h2 className="text-3xl text-[#f76305] font-bold mb-6">How It Works</h2>
         <p className="text-gray-600 mb-12">
           SkillSwap makes learning new skills simple, fast, and fun.
         </p>
