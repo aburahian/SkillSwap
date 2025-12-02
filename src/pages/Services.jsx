@@ -12,7 +12,7 @@ const Services = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:3000/skills")
+    fetch("https://skillswap-server-beta.vercel.app/skills")
       .then((res) => res.json())
       .then((data) => {
         setData(data);

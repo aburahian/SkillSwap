@@ -135,7 +135,7 @@ const Navbar = () => {
               </Link>
             ) : (
               <div>
-                <Link to={"/auth"} className="btn mr-4 bg-[#f76305] text-white">
+                <Link to={"/auth"} className="btn mr-4  text-black">
                   Log In
                 </Link>
                 <Link

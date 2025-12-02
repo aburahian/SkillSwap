@@ -7,7 +7,7 @@ const DataProvider = ({ children }) => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:3000/latest-skills")
+    fetch("https://skillswap-server-beta.vercel.app/latest-skills")
       .then((res) => res.json())
       .then((data) => {
         setData(data);

@@ -9,7 +9,7 @@ const SkillDetails = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:3000/skills")
+    fetch("https://skillswap-server-beta.vercel.app/skills")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
@@ -37,7 +37,9 @@ const SkillDetails = () => {
 
         {/* Skill Info */}
         <div className="space-y-4">
-          <h1 className="text-3xl font-bold text-gray-900">{skill.skillName}</h1>
+          <h1 className="text-3xl font-bold text-gray-900">
+            {skill.skillName}
+          </h1>
           <p className="text-gray-500 italic">{skill.category}</p>
 
           <div className="grid grid-cols-2 gap-4">
