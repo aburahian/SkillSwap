@@ -18,7 +18,7 @@ const TopProviders = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
         {topProvider.map((provider) => (
           <div
-            key={provider.skillId}
+            key={provider._id}
             className="w-72 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-lg transition-all p-6 text-center"
           >
             <div className="flex items-center justify-center mb-4">
